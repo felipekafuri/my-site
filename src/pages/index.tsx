@@ -21,7 +21,7 @@ const Home: React.FC = () => {
       <SEO
         title="Bem-vindo, conheça mais sobre mim!"
         shouldExcludeTitleSuffix
-        description="Engenheiro de Software e entusiasta das melhores técnologias"
+        description="Engenheiro de Software e entusiasta das melhores técnologias!"
       />
       <h1 className="text:2xl">Dark mode with Tailwind and Next-themes</h1>
       <button onClick={switchTheme}>Change theme</button>
