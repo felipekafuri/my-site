@@ -21,7 +21,21 @@ module.exports = {
       '2xl': '1536px'
       // => @media (min-width: 1536px) { ... }
     },
-    extend: {}
+    extend: {
+      colors: {
+        purple: '#F5EBFF',
+        darkPurple: '#6c63ff',
+        black: '#000',
+        yellow: '#fdea7b',
+        lightgrey: '#393e46',
+        linkedIn: '#0076b5',
+        facebook: '#1095f5',
+        green: '#47d600',
+        darkgrey: '#222831',
+        whitedarktheme: '#EEEEEE',
+        orange: '#b55400',
+      }
+    }
   },
   variants: {
     extend: {}
