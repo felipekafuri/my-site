@@ -31,6 +31,7 @@ module.exports = {
         linkedIn: '#0076b5',
         facebook: '#1095f5',
         green: '#47d600',
+        darkGreen: '#35B100',
         darkgrey: '#222831',
         whitedarktheme: '#EEEEEE',
         orange: '#b55400',
