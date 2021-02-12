@@ -9,7 +9,7 @@ const Switch: React.FC = () => {
     setIsMounted(!isMounted)
 
     setTheme(isMounted ? 'dark' : 'light')
-  }, [isMounted, setIsMounted])
+  }, [isMounted])
   return (
     <div
       className="w-16 h-8 bg-gray-300 rounded-full flex-shrink-0 p-1 cursor-pointer"

@@ -35,6 +35,9 @@ module.exports = {
         darkgrey: '#222831',
         whitedarktheme: '#EEEEEE',
         orange: '#b55400',
+      },
+      fontFamily:{
+        'code': ['JetBrains Mono']
       }
     }
   },

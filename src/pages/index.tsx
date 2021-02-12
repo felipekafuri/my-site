@@ -18,7 +18,7 @@ const Home: React.FC = () => {
       <main className="w-full h-screen text-center">
         <section className="min-h-screen w-full grid grid-cols-2 gap-4">
           <div className="col-span-1 sm:col-span-2 md:col-span-1 flex items-center justify-center w-full h-full ">
-            <h1 className="text-4xl font-bold text-darkgrey dark:text-whitedarktheme">
+            <h1 className="text-4xl font-bold text-darkgrey dark:text-whitedarktheme font-code">
               FELIPE RAMOS KAFURI
             </h1>
           </div>
@@ -34,11 +34,31 @@ const Home: React.FC = () => {
           </div>
         </section>
 
-        <section className="h-screen w-full bg-darkgrey dark:bg-whitedarktheme grid grid-cols-2 gap-4 ">
-          <div className="col-span-1 sm:col-span-2 md:col-span-1 m-auto w-full h-full">
-            <h1 className="mt-5 text-4xl font-bold text-whitedarktheme dark:text-darkgrey">
+        <section className="h-screen w-full bg-darkgrey dark:bg-whitedarktheme grid grid-cols-2 gap-4">
+          <div className="col-span-1 sm:col-span-2 md:col-span-1 m-auto w-full h-ful mt-5 p-5">
+            <h1 className="mt-5 text-4xl font-bold text-whitedarktheme dark:text-darkgrey font-code mb-10">
               SOBRE MIM
             </h1>
+            <p className="font-code text-sm text-justify mb-5">
+              Olá com ja devem ter reparado me chamo Felipe Ramos Kafuri, sou
+              nascido em Goiânia-GO no ano de 2000, cidadão europeu com
+              nacionalidade portuguesa, engenheiro de software e muito mais.
+            </p>
+            <p className="font-code text-sm text-justify mb-5">
+              Meu interesse por tecnologia começou desde mais novo quando eu
+              mexia no computador que havia em minha casa para instalar e
+              desinstalar jogos, mexendo em seus arquivos e códigos para ver o
+              que acontecia, obviamente que em sua maioria eu mais quebrava os
+              códigos do que fazia algo realmente relevante, mas tudo começou
+              graças a essa pequena curiosidade de entender como as coisas
+              funcionam.
+            </p>
+            <p className="font-code text-sm text-justify mb-5">
+              Desde sigo fascinado por tecnologia e ainda por jogos (emoji),
+              hoje estou cursando Engenharia de Software pela UFG (Universidade
+              Federal de Goiás), além de empreender em minha própria empresa da
+              qual tenho sociedade com meu pai e irmão.
+            </p>
           </div>
           <div className="p-10 col-span-1 sm:col-span-2 md:col-span-1  w-full h-full">
             <Image
