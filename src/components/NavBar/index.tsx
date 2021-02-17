@@ -1,7 +1,7 @@
 import { useCallback, useState } from 'react'
 import Link from 'next/link'
 import Switch from '../Switch'
-
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll'
 const NavBar: React.FC = () => {
   const [active, setActive] = useState(false)
 
@@ -42,16 +42,30 @@ const NavBar: React.FC = () => {
         }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
       >
         <div className="z-50 lg:inline-flex md:mr-5 lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto">
-          <Link href="/about">
-            <a className="lg:inline-flex lg:w-auto w-full px-3 py-3 rounded items-center text-darkgrey dark:text-whitedarktheme justify-center hover:underline text-lg">
+          <ScrollLink
+            to="about"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <p className="lg:inline-flex lg:w-auto w-full px-3 py-3 rounded items-center text-darkgrey dark:text-whitedarktheme justify-center hover:underline text-lg cursor-pointer">
               Quem sou
-            </a>
-          </Link>
-          <Link href="/contact">
-            <a className="text-darkgrey dark:text-whitedarktheme lg:inline-flex lg:w-auto w-full px-3 py-3 rounded items-center justify-center hover:underline text-lg">
+            </p>
+          </ScrollLink>
+          <ScrollLink
+            to="contact"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <p className="text-darkgrey dark:text-whitedarktheme lg:inline-flex lg:w-auto w-full px-3 py-3 rounded items-center justify-center hover:underline text-lg cursor-pointer">
               Contato
-            </a>
-          </Link>
+            </p>
+          </ScrollLink>
 
           <Switch />
         </div>

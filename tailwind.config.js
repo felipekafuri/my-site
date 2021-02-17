@@ -38,6 +38,9 @@ module.exports = {
       },
       fontFamily:{
         'code': ['JetBrains Mono']
+      },
+      borderRadius:{
+        '5xl': '25%'
       }
     }
   },
