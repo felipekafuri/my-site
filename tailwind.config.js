@@ -29,6 +29,7 @@ module.exports = {
         yellow: '#fdea7b',
         lightgrey: '#393e46',
         linkedIn: '#0076b5',
+        instagram: '#9C5C95',
         facebook: '#1095f5',
         green: '#47d600',
         darkGreen: '#35B100',
