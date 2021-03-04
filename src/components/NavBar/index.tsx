@@ -5,10 +5,9 @@ import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll'
 const NavBar: React.FC = () => {
   const [active, setActive] = useState(false)
 
-  const handleToggle = useCallback(() => {
+  const handleToggle = function () {
     setActive(!active)
-  }, [active])
-
+  }
   return (
     <nav className="flex items-center w-screen fixed top-0 z-50 flex-wrap border-b-2 border-darkgrey dark:border-whitedarktheme bg-whitedarktheme dark:bg-darkgrey p-3">
       <h1
@@ -55,7 +54,7 @@ const NavBar: React.FC = () => {
             </p>
           </ScrollLink>
           <ScrollLink
-            to="contact"
+            to="social"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -63,7 +62,7 @@ const NavBar: React.FC = () => {
             duration={500}
           >
             <p className="text-darkgrey dark:text-whitedarktheme lg:inline-flex lg:w-auto w-full px-3 py-3 rounded items-center justify-center hover:underline text-lg cursor-pointer">
-              Contato
+              Redes Sociais
             </p>
           </ScrollLink>
 
