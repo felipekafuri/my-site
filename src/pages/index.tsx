@@ -176,7 +176,7 @@ const Home: React.FC = () => {
                 <div className="absolute inset-0 bg-red-500 opacity-25 rounded-2xl shadow-2xl"></div>
                 <div className="absolute inset-0 transform  hover:scale-75 transition duration-300">
                   <div className="bg-white h-full w-full rounded-xl shadow-2xl">
-                    <Link href="https://www.linkedin.com/in/felipekafuri/">
+                    <Link href="https://www.youtube.com/channel/UC46hDx-ZY5WaHKqE2HLE5vQ?sub_confirmation=1">
                       <a target="_blank" rel="noopener noreferrer">
                         <Image
                           src="/youtube.png"
